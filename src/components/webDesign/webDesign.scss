@@ -1,0 +1,26 @@
+.web-design {
+  margin-top: 70px;
+  .container {
+    .services {
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .jumbotron {
+        background: #c1c1c1;
+        padding: 40px;
+        max-width: 800px;
+        border-radius: 10px;
+        img {
+          width: 100%;
+          margin: 20px 0;
+        }
+        .list-group {
+          li:nth-child(odd) {
+            background: #858585;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

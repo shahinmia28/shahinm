@@ -1,0 +1,17 @@
+.web-develop {
+  margin-top: 70px;
+  .container {
+    .services {
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .jumbotron {
+        max-width: 700px;
+        img {
+          width: 100%;
+          margin: 20px 0;
+        }
+      }
+    }
+  }
+}
